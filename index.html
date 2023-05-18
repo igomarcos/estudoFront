@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+
+<body>
+    <div class="formulario">
+        <form>
+            <div class="form1">
+                <div class="form-row name">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="form-row email">
+                    <label for="email">Aluno Email:</label>
+                    <input type="text" id="email">
+                </div>
+
+            </div>
+            <div class="form-row escolas">
+                <label for="escolas">Escolas:</label>
+                <select id="escolas"></select>
+            </div>
+
+            <div class="chekdrop">
+
+                <div class="form-row checkbox">
+                    <label for="aprovado">Aluno Aprovado:</label>
+                    <input type="checkbox" id="aprovado">
+                </div>
+                <div class="form-row ">
+                    <label for="alunoSala">Aluno Sala:</label>
+                    <div class="custom-select">
+                        <select id="alunoSala" multiple>
+                            <option value="Fundamental I">Fundamental I</option>
+                            <option value="Fundamental II">Fundamental II</option>
+                            <option value="Ensino Médio">Ensino Médio</option>
+                        </select>
+                        <div class="select-dropdown"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <label for="alunoCidade">Aluno Cidade:</label>
+                <input type="text" id="alunoCidade">
+            </div>
+            <div class="buttons2">
+
+                <div class="form-row button ">
+                    <input type="submit" value="Cadastrar Aluno ✅" id="btnInsert">
+                    <input type="submit" value="Atualizar Aluno ⤴️" id="btnUpdate">
+
+                </div>
+                <input type="submit" value="Deletar Aluno ❌" id="btnDelete">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

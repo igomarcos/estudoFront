@@ -1,0 +1,197 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    
+
+}
+
+.formulario {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 50px 0;
+    width: 100%;
+    height: 100vh;
+    background: #d45f00;
+
+}
+
+.form1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.escolas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px 10px 30px;
+    width: 50%;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 18px -8px rgba(0,0,0,0.75);
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chekdrop{
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: justify;
+}
+
+input{
+    outline: none;
+    background: transparent;
+    border: 5px solid #000000;
+    border-radius: 20px;
+}
+
+label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: 600;
+}
+
+input[type="text"],
+select {
+    background: transparent;
+    border: 1px solid #000;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 0.8rem;
+
+
+    &:focus {
+        outline: none;
+        border-color: #d45f00;
+    }
+}
+
+#alunoSala{
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-size: 1.2em;
+    height: 110px;
+    overflow: hidden;
+
+    &:focus {
+        outline: none;
+        border-color: #d45f00;
+    }
+    
+}
+
+input[type="checkbox"] {
+    outline: none;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+
+input[type="submit"] {
+    width: 50%;
+    font-size: 1rem;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    border: 1px solid #898989;
+    box-shadow: 5px 5px 14px -4px rgba(0,0,0,0.50);
+ 
+    
+}
+
+#btnInsert:hover{
+    background: #029604;
+    color: #ffffff;
+    border: 2px solid #2bff00;
+    box-shadow: 5px 5px 14px -4px rgba(0,0,0,0.50);
+    cursor: pointer;
+}
+
+#btnUpdate:hover{
+    background: #025d96;
+    color: #ffffff;
+    border: 2px solid #00f7ff;
+    box-shadow: 5px 5px 14px -4px rgba(0,0,0,0.50);
+    cursor: pointer;
+
+}
+
+#btnDelete:hover{
+    background: #960202;
+    color: #ffffff;
+    border: 2px solid #ff0000;
+    box-shadow: 5px 5px 14px -4px rgba(0,0,0,0.50);
+    cursor: pointer;
+
+}
+
+.button{
+    gap: 0 10px;
+    width: 100%;
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
